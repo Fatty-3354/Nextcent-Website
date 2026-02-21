@@ -12,7 +12,7 @@ closeIcon.addEventListener('click', function () {
 });
 
 //Active Link
-const navLinks = document.querySelectorAll('.nav-link');
+/*const navLinks = document.querySelectorAll('.nav-link');
 navLinks.forEach(function(link){
     //remove active from all other links
     link.addEventListener('click', function (){
@@ -23,4 +23,4 @@ navLinks.forEach(function(link){
     link.addEventListener('click', function (){
          this.classList.add('active');
     });
-});
+});*/
