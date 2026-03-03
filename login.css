@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/017/457/394/small_2x/simple-background-with-gradient-shape-green-vector.jpg);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.login-form input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    color: rgb(47, 44, 44);
+}
+
+.login-form input:focus {
+    border: 1px solid #04678b;
+    box-shadow: 0 0 5px rgb(200, 202, 205);
+    outline: none;
+}
+
+button {
+    padding: 5px 30px;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: transparent;
+    color: antiquewhite;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.note{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    color: #fff;
+}
+
+.note a {
+    color: antiquewhite;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
