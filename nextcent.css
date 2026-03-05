@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
+    font-family: "poppins", courier;
 }
 
 /*root*/
@@ -19,35 +20,37 @@
     --grey-blue: #abbed1;
     --silver-color: #f5f7fa;
     --hero-fontsize: 48px;
-    --h1-fontsize: 48px;
+    --h1-fontsize: 44px;
     --h2-fontsize: 36px;
     --h3-fontsize: 30px;
     --p-fontsize: 16px;
 }
 /*navbar section*/
+
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--tint5);
-    padding: 20px;
+    padding: 0.7rem 6.25rem;
+    gap: 2.7rem;
 }
 
 .logo {
     cursor: pointer;
+    justify-self: flex-start;
 }
 .nav-list {
     display: flex;
     align-items: center;
-    justify-content: center;
     list-style-type: none;
-    gap: 70px;
-    padding: 0 0 0 100px;
+    gap: 22px;
+    margin-left: auto;
 }
 
 .nav-link {
     display: flex;
-    justify-content: center;
     align-items: center;
     color: var(--sec-color);
     text-decoration: none;
@@ -109,9 +112,9 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: calc(100vh - 10vh);
-    width: 100%;
-    gap: 140px;
+    
+    gap: 4.5rem;
+    padding: 4.5rem 6.25rem;
 }
 
 .fa-close {
@@ -137,7 +140,7 @@ button:hover {
 }
 
 .hero-img {
-   width: 350px;
+   width: 270px;
    height: auto;
 }
 
@@ -146,11 +149,15 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     gap: 50px;
+   max-width: 370px;
 }
 .hero-heading h1{
     font-size: var(--hero-fontsize);
     width: 450px;
     word-break: break-all;
+    width: 510px;
+    line-height: 53px;
+    font-weight: 600;
 }
 
 .hero-heading h1 span {
