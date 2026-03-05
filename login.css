@@ -67,3 +67,28 @@ button:hover {
     gap: 1rem;
 }
 
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+#password {
+    position: relative;
+}
+
+.fa-eye-slash{
+    position: absolute;
+    color: rgb(42, 40, 40);
+    right: 7rem;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.fa-eye{
+    position: absolute;
+    color: rgb(42, 40, 40);
+    right: 7rem;
+    font-size: 12px;
+    cursor: pointer;
+}
+
