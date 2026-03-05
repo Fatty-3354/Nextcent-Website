@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    font-family: "poppins", courier;
+    font-family: "poppins", sans-serif;
 }
 
 /*root*/
@@ -23,7 +23,7 @@
     --h1-fontsize: 44px;
     --h2-fontsize: 36px;
     --h3-fontsize: 30px;
-    --p-fontsize: 16px;
+    --p-fontsize: 10px;
 }
 /*navbar section*/
 
